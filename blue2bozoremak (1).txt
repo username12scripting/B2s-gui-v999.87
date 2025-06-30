@@ -321,9 +321,9 @@ scriptbyblue2spooky.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
  
-    RequestCommand:InvokeServer(";music 96507001292089")
-    RequestCommand:InvokeServer(";pitch 0.65")
-	RequestCommand:InvokeServer(";volume inf")
+    RequestCommand:InvokeServer(";9")
+    RequestCommand:InvokeServer(";p")
+	RequestCommand:InvokeServer(";v")
  
 end)
 
